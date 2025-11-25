@@ -1,0 +1,33 @@
+name: "[005] Leave Breadcrumbs (PR)"
+description: Improve documentation based on something you had to figure out
+title: "[CONCEPT-005] Leave Breadcrumbs"
+labels: ["onboarding", "concept", "general"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Goal
+        Update a README or doc to include something you had to figure out. Make a PR.
+
+        ## Clues
+        - What did you have to ask about or search for?
+        - What would have saved you 10 minutes?
+        - READMEs, setup docs, and troubleshooting sections need love
+        - Small PRs are easier to review than large ones
+        - Read "Leave Breadcrumbs" in Playing on an Organic Team
+
+  - type: input
+    id: pr-link
+    attributes:
+      label: PR Link
+      description: Link to your pull request
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-you-added
+    attributes:
+      label: What You Added
+      description: Brief description of the breadcrumb you left
+    validations:
+      required: true

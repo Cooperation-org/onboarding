@@ -1,0 +1,31 @@
+name: "[002] Make Claim on dev.linkedtrust.us"
+description: Create a claim about yourself in the development environment
+title: "[SKILL-002] Make Claim on dev.linkedtrust.us"
+labels: ["onboarding", "skill", "general"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Goal
+        Make a claim about yourself on dev.linkedtrust.us and get someone to attest to it.
+
+        ## Clues
+        - Go to dev.linkedtrust.us
+        - What's something simple and true about you that a teammate could vouch for?
+        - Test environment = safe to experiment
+
+  - type: input
+    id: claim-link
+    attributes:
+      label: Claim Link
+      description: Link to your claim on dev.linkedtrust.us
+    validations:
+      required: true
+
+  - type: input
+    id: attestation
+    attributes:
+      label: Attestation
+      description: Link to attestation or @mention of who attested
+    validations:
+      required: false

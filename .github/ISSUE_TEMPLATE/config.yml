@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Team Slack
+    url: https://cooperation-org.slack.com
+    about: Ask questions in #standup or #onboarding
+  - name: coop-projects
+    url: https://github.com/Cooperation-org/coop-projects
+    about: Team playbook and roles documentation

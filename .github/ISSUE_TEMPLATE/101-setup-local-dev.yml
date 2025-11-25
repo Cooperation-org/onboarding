@@ -1,0 +1,40 @@
+name: "[101] Setup Local Dev Environment"
+description: Get a LinkedTrust project running locally
+title: "[DEV-101] Setup Local Dev Environment"
+labels: ["onboarding", "developer"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Goal
+        Clone a LinkedTrust repo, get it running locally, verify it works.
+
+        ## Clues
+        - Check pinned messages in #dev or #engineering for repo list
+        - Every repo should have a README with setup instructions
+        - If README is missing steps, that's your breadcrumb opportunity
+        - Common issues: node version, env vars, database setup
+
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      description: Which repo did you set up?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proof
+    attributes:
+      label: Evidence
+      description: Screenshot of it running or link to localhost
+    validations:
+      required: true
+
+  - type: textarea
+    id: issues-found
+    attributes:
+      label: Issues Found
+      description: What wasn't in the README? Did you fix it?
+    validations:
+      required: false

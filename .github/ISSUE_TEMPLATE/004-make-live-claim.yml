@@ -1,0 +1,32 @@
+name: "[004] Make Real Claim on linkedtrust.us"
+description: Create a real claim you want as a certificate
+title: "[SKILL-004] Make Real Claim on linkedtrust.us"
+labels: ["onboarding", "skill", "general"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Goal
+        Make a REAL claim on live.linkedtrust.us, get attestation, publish as certificate.
+
+        ## Clues
+        - This is production - choose something meaningful
+        - Good examples: "Completed LinkedTrust Onboarding", "Contributed to X project", specific skills
+        - You'll need attestations before publishing
+        - Check the LinkedTrust docs (pinned in #general or #linkedtrust)
+
+  - type: input
+    id: claim-link
+    attributes:
+      label: Claim Link
+      description: Link to your published certificate
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why This Claim
+      description: Why did you choose this particular claim?
+    validations:
+      required: false

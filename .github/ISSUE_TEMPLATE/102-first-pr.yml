@@ -1,0 +1,33 @@
+name: "[102] Make Your First PR"
+description: Submit a small pull request
+title: "[DEV-102] Make Your First PR"
+labels: ["onboarding", "developer"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Goal
+        Make a small, clean PR. Get it reviewed and merged.
+
+        ## Clues
+        - Look for "good-first-issue" labels in project repos
+        - Small PRs get reviewed faster than large ones
+        - PR description should explain WHY, code shows WHAT
+        - Read "Choose Places and Names with Care" in How to Jump on a Moving Project
+        - Ping for review after submitting
+
+  - type: input
+    id: pr-link
+    attributes:
+      label: PR Link
+      description: Link to your pull request
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-you-changed
+    attributes:
+      label: What You Changed
+      description: Brief description
+    validations:
+      required: true

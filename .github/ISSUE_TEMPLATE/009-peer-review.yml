@@ -1,0 +1,40 @@
+name: "[009] Review Teammate's Work"
+description: Give critical feedback on someone's completed task
+title: "[SKILL-009] Review Teammate's Work"
+labels: ["onboarding", "skill", "general"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Goal
+        Review a teammate's completed onboarding task. Give specific feedback.
+
+        ## Clues
+        - Look for completed issues labeled "onboarding"
+        - What worked? What could be better?
+        - "Looks good" is not helpful - be specific
+        - Read "Reviewer Responsibility" in Playing on an Organic Team
+
+  - type: input
+    id: work-reviewed
+    attributes:
+      label: Work Reviewed
+      description: Link to the issue or PR you reviewed
+    validations:
+      required: true
+
+  - type: input
+    id: teammate
+    attributes:
+      label: Teammate
+      description: "@username"
+    validations:
+      required: true
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback Given
+      description: What specific feedback did you give?
+    validations:
+      required: true

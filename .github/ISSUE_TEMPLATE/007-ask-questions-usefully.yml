@@ -1,0 +1,33 @@
+name: "[007] Ask Questions Usefully"
+description: Practice asking questions in a way that makes answers easy
+title: "[CONCEPT-007] Ask Questions Usefully"
+labels: ["onboarding", "concept", "general"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Goal
+        Ask a question in a public channel with all context needed to answer it.
+
+        ## Clues
+        - Include: what you're trying to do, what you tried, exact error messages
+        - Screenshots or links help
+        - "Doesn't work" is not useful - what specifically happened?
+        - Read "Ask Questions Usefully" in How to Jump on a Moving Project
+        - Wait 30 min before DM'ing individuals
+
+  - type: input
+    id: question-link
+    attributes:
+      label: Question Link
+      description: Link to your Slack question
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-you-included
+    attributes:
+      label: What Context You Included
+      description: List what information you provided
+    validations:
+      required: true

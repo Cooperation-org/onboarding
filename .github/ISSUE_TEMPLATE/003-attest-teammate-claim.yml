@@ -1,0 +1,31 @@
+name: "[003] Attest to Teammate's Claim"
+description: Find and attest to a claim made by someone on your team
+title: "[SKILL-003] Attest to Teammate's Claim"
+labels: ["onboarding", "skill", "general"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Goal
+        Search for a claim about a teammate on dev.linkedtrust.us and attest to it.
+
+        ## Clues
+        - Look in #standup or ask who has made claims recently
+        - Only attest to things you actually know are true
+        - This is about trust - your name goes on this
+
+  - type: input
+    id: claim-link
+    attributes:
+      label: Claim Link
+      description: Link to the claim you attested to
+    validations:
+      required: true
+
+  - type: input
+    id: teammate
+    attributes:
+      label: Teammate
+      description: "@username of teammate"
+    validations:
+      required: true

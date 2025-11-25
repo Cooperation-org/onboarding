@@ -1,0 +1,32 @@
+name: "[104] Use create-trust-app"
+description: Bootstrap a new app with create-trust-app
+title: "[DEV-104] Use create-trust-app"
+labels: ["onboarding", "developer"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Goal
+        Use the create-trust-app project to bootstrap a new LinkedTrust application.
+
+        ## Clues
+        - Find the create-trust-app repo (check GitHub org or ask in #dev)
+        - Follow the README - report if anything is unclear
+        - Build something small: claim viewer, simple attestation flow, etc.
+        - This is about learning the scaffolding, not building production code
+
+  - type: input
+    id: repo-link
+    attributes:
+      label: Your App Repo
+      description: Link to your bootstrapped app
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-you-built
+    attributes:
+      label: What You Built
+      description: Brief description
+    validations:
+      required: true

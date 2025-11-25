@@ -1,0 +1,23 @@
+name: "[001] Create Team Calendar Invite"
+description: Practice creating and sharing a public calendar event
+title: "[SKILL-001] Create Team Calendar Invite"
+labels: ["onboarding", "skill", "general"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Goal
+        Create a calendar invite for a team event, make it public, and share the link in #standup.
+
+        ## Clues
+        - Check the pinned messages in #standup for the team calendar
+        - Look at existing calendar events to see the naming pattern
+        - Ask yourself: would someone seeing this link know what meeting this is?
+
+  - type: input
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link to your Slack message with the calendar link
+    validations:
+      required: true

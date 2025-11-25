@@ -1,0 +1,32 @@
+name: "[103] Use LinkedTrust SDK"
+description: Write code that interacts with LinkedTrust SDK
+title: "[DEV-103] Use LinkedTrust SDK"
+labels: ["onboarding", "developer"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Goal
+        Write a script or component that uses the LinkedTrust SDK to create/read claims.
+
+        ## Clues
+        - SDK docs should be in the repo or pinned in #dev
+        - Start with reading claims before creating them
+        - Test in dev environment first
+        - Ask yourself: what would I want to automate?
+
+  - type: input
+    id: code-link
+    attributes:
+      label: Code Link
+      description: Link to PR, gist, or repo
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-it-does
+    attributes:
+      label: What It Does
+      description: Brief description of your code
+    validations:
+      required: true

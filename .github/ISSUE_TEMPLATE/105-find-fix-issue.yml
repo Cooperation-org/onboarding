@@ -1,0 +1,33 @@
+name: "[105] Find and Fix an Issue"
+description: Find a real issue in a project and fix it
+title: "[DEV-105] Find and Fix an Issue"
+labels: ["onboarding", "developer"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Goal
+        Find a bug, typo, or improvement opportunity. Fix it and submit a PR.
+
+        ## Clues
+        - Use the projects - where did you get confused?
+        - Check GitHub issues in team repos
+        - Typos in docs count - documentation is code
+        - Read "You Will Break Things" in How to Jump on a Moving Project
+        - Test your fix locally first
+
+  - type: input
+    id: pr-link
+    attributes:
+      label: PR Link
+      description: Link to your pull request
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-you-fixed
+    attributes:
+      label: What You Fixed
+      description: What was wrong and how did you fix it?
+    validations:
+      required: true

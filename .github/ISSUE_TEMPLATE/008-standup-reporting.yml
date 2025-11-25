@@ -1,0 +1,24 @@
+name: "[008] Report in Standup"
+description: Post your first standup update
+title: "[SKILL-008] Report in Standup"
+labels: ["onboarding", "skill", "general"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Goal
+        Post a standup update in #standup following the team format.
+
+        ## Clues
+        - Scroll back in #standup to see the pattern
+        - Format: What you did, what you'll do, blockers
+        - Be specific - "worked on onboarding" vs "completed tasks 001-003"
+        - Read ROLES.md Volunteer/Intern section
+
+  - type: input
+    id: standup-link
+    attributes:
+      label: Standup Link
+      description: Link to your standup message
+    validations:
+      required: true

@@ -1,0 +1,32 @@
+name: "[006] Seek Critique in Public"
+description: Share work-in-progress and ask for critical feedback
+title: "[CONCEPT-006] Seek Critique, Not Permission"
+labels: ["onboarding", "concept", "general"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Goal
+        Post something you're working on in a public channel and actively ask for critique.
+
+        ## Clues
+        - Don't ask "is this okay?" - ask "what would make this better?"
+        - Share early, before it's "done"
+        - Make it easy to give feedback (screenshots, links, context)
+        - Read "Seek Critique, Not Permission" in Playing on an Organic Team
+
+  - type: input
+    id: slack-link
+    attributes:
+      label: Slack Message Link
+      description: Link to your message asking for critique
+    validations:
+      required: true
+
+  - type: textarea
+    id: feedback-received
+    attributes:
+      label: Feedback Received
+      description: What critique did you get? What did you change?
+    validations:
+      required: false
