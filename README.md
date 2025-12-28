@@ -20,7 +20,7 @@ This onboarding teaches you to:
 - **Work in public** - share early, seek critique
 - **Leave breadcrumbs** - document for the next person
 - **Own your work** - if you promise it, deliver it or communicate early
-- **Review critically** - "looks good" isn't helpful
+- **Review critically, and see critical review** - "looks good" isn't helpful
 
 ## Quick Start
 
