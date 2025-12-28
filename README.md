@@ -2,7 +2,7 @@
 
 Welcome! This repo is your onboarding workspace. You'll practice real skills, apply team principles, and earn verifiable attestations for your work.
 
-_core team members: this is the Onboarding repo for *interns* ; here is the [onboarding *project*](https://github.com/Cooperation-org/projects/tree/main/projects/Current/onboarding) 
+_core team members: *this* is the Onboarding repo for *interns* ; here is the [onboarding *project*](https://github.com/Cooperation-org/projects/tree/main/projects/Current/onboarding) for planning_
 
 ## How This Works
 
