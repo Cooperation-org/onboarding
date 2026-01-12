@@ -8,13 +8,24 @@ body:
       value: |
         ## Goal
         Clone a LinkedTrust repo, get it running locally, verify it works.
-
+        
         ## Clues
-        - Check pinned messages in #dev or #engineering for repo list
+        
+        **Beginner-Friendly Repos to Try:**
+        - [site-linkedtrust-us](https://github.com/Cooperation-org/site-linkedtrust-us) - LinkedTrust website
+        - [claim-lexicon](https://github.com/Cooperation-org/claim-lexicon) - Claims processing
+        - Check pinned messages in #dev or #engineering for more options
+        
+        **Basic Command Line Help:**
+        - Windows: Use `dir` to list files, `cd foldername` to navigate
+        - Mac/Linux: Use `ls` to list files, `cd foldername` to navigate
+        - After cloning: `cd repository-name` to enter the folder
+        
+        **Setup Steps:**
         - Every repo should have a README with setup instructions
-        - If README is missing steps, that's your breadcrumb opportunity
+        - If README is missing steps, that's your breadcrumb opportunity - document what you learned!
         - Common issues: node version, env vars, database setup
-
+        
   - type: input
     id: repo
     attributes:
@@ -22,7 +33,6 @@ body:
       description: Which repo did you set up?
     validations:
       required: true
-
   - type: textarea
     id: proof
     attributes:
@@ -30,7 +40,6 @@ body:
       description: Screenshot of it running or link to localhost
     validations:
       required: true
-
   - type: textarea
     id: issues-found
     attributes:
@@ -38,3 +47,33 @@ body:
       description: What wasn't in the README? Did you fix it?
     validations:
       required: false
+```
+
+---
+
+## What We Improved:
+
+✅ **Added specific repo examples** (claim-lexicon, site-linkedtrust-us)
+✅ **Added command line help** (dir/ls commands for Windows/Mac)
+✅ **Clearer structure** with sections
+✅ **Kept the "hunt, don't wait" philosophy**
+✅ **More beginner-friendly**
+
+---
+
+## Step 3: Save Your Changes
+
+**After you paste the improved version:**
+
+1. Scroll down to the **"Commit changes"** section
+2. In the commit message, write:
+```
+   Improve [DEV-101] template with specific repo examples and command line help
+```
+3. In the description, write:
+```
+   Based on testing feedback from @artworxai:
+   - Added beginner-friendly repo examples
+   - Included basic command line help for Windows/Mac
+   - Clarified setup steps
+   - Made template more accessible for new developers
