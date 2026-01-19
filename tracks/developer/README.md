@@ -20,6 +20,7 @@ For interns and contributors focusing on engineering and technical work.
 ### Week 2: Contributing Code
 
 **Tasks:**
+PICK a project 1st from [projects](https://github.com/Cooperation-org/projects)
 - [102] Make Your First PR
 - [005] Leave Breadcrumbs (improve README/docs based on setup experience)
 - [105] Find and Fix an Issue
